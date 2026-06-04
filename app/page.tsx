@@ -24,15 +24,17 @@ export default function Home() {
       {/* NAVBAR */}
       <header className="nav">
         <div className="nav-inner">
-        <div className="logo">Kyle20000</div>
+          <div className="logo">Kyle20000</div>
 
-        <nav>
-          <a href="#overview">Overview</a>
-          <a href="#features">Features</a>
-          <a href="#usecases">Use Cases</a>
-        </nav>
+          <nav>
+            <a href="#overview">Overview</a>
+            <a href="#features">Features</a>
+            <a href="#usecases">Use Cases</a>
+          </nav>
 
-        <button className="nav-btn">Login</button>
+          <button className="nav-btn" onClick={() => setOpen(true)}>
+            Login Preview
+          </button>
         </div>
       </header>
 
