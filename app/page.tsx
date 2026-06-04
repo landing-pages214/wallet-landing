@@ -23,6 +23,7 @@ export default function Home() {
     <main className="page">
       {/* NAVBAR */}
       <header className="nav">
+        <div className="nav-inner">
         <div className="logo">Kyle20000</div>
 
         <nav>
@@ -31,9 +32,8 @@ export default function Home() {
           <a href="#usecases">Use Cases</a>
         </nav>
 
-        <button className="nav-btn" onClick={() => setOpen(true)}>
-          Login Preview
-        </button>
+        <button className="nav-btn">Login</button>
+        </div>
       </header>
 
       {/* HERO */}
